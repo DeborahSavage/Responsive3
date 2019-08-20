@@ -44,10 +44,17 @@ li {
 }
 
 /* ==============container styles================= */
-.container {
+.wrapper {
   background-color: white;
   padding-left: 1em;
   padding-right: 1em;
+  width: 100%;
+  max-width: 1150px;
+  margin: 0 auto;
+}
+
+.container {
+  background-color: white;
   text-align: center;
 }
 
@@ -65,6 +72,10 @@ li {
 
 .main-nav {
   padding-bottom: 30px;
+}
+
+.name {
+  text-align: center;
 }
 
 .name a,
@@ -92,6 +103,11 @@ li {
   padding: 15px;
 }
 
+
+.para1 {
+  padding: 0 10px 0 10px;
+}
+
 .main-footer {
   color: black;
   text-align: center;
@@ -112,7 +128,6 @@ li {
   padding-top: 15px;
 }
 
-
 /* ==================== ID================= */
 #contact {
   color: black;
@@ -130,7 +145,6 @@ li {
 
   .feat-img1 {
     width: 50%;
-    display: inline;
     float: right;
     padding: 50px 10px 50px 10px;
   }
@@ -146,15 +160,25 @@ li {
     text-align: center;
   }
 
-  .name,
+  .contacth {
+    padding: 20px 0 20px 0;
+  }
+
+
   .main-nav li {
     display: inline-block;
-  }
+
+      }
+
+      .name,
+      .main-nav {
+        text-align: center;
+      }
 
   .main-footer p {
     float: left;
-    margin-left: 15px;
-    margin-bottom: 25px;
+    margin: auto;
+
   }
 
   .footer li {
@@ -172,9 +196,19 @@ li {
   }
 }
 
+/* =================================
+  Clear Fix
+==================================== */
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
 @media (min-width: 1024px) {
   .container {
-    width: 80%;
+    width: 90%;
     max-width: 1150px;
     margin: 0 auto;
   }
@@ -194,7 +228,6 @@ li {
     text-align: center;
   }
 }
-
 /* =================================
   Clear Fix
 ==================================== */
