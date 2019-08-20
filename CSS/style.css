@@ -103,6 +103,19 @@ li {
   padding: 15px;
 }
 
+.skill-picture {
+  width: 20%;
+}
+
+.skills h2 {
+  color: black;
+  padding: 50px 0 30px 0;
+  text-transform: uppercase;
+}
+
+.skill-list {
+  padding: 20px 0 50px 0;
+}
 
 .para1 {
   padding: 0 10px 0 10px;
@@ -164,25 +177,21 @@ li {
     padding: 20px 0 20px 0;
   }
 
-
   .main-nav li {
     display: inline-block;
+  }
 
-      }
-
-      .name,
-      .main-nav {
-        text-align: center;
-      }
+  .name,
+  .main-nav {
+    text-align: center;
+  }
 
   .main-footer p {
     float: left;
     margin: auto;
-
   }
 
   .footer li {
-    display: inline;
     float: right;
     margin-right: 15px;
   }
@@ -204,7 +213,6 @@ li {
   display: table;
   clear: both;
 }
-
 
 @media (min-width: 1024px) {
   .container {
@@ -228,6 +236,7 @@ li {
     text-align: center;
   }
 }
+
 /* =================================
   Clear Fix
 ==================================== */
