@@ -223,6 +223,7 @@ li {
 
   .name {
     float: left;
+    font-family: 'Anton', sans-serif; 
   }
 
   .main-nav {
